@@ -37,12 +37,6 @@ main img {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: var(--border, 1px solid rgb(0 0 0 / 0.2));
-    /* 1 */
-    padding: var(--padding, 1rem);
-    background-color: var(--background-color, #eee);
-    color: var(--color, #333);
     text-align: center;
 }
 
@@ -59,4 +53,20 @@ footer {
     margin-top: 15px;
     border-top: var(--border, 1px solid #000);
     text-align: var(--text-align, center);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class electors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
 }
